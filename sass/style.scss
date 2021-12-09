@@ -1,106 +1,190 @@
 .navigation li {
-    display: inline-block;
-    margin: 0 20px 0 0;
-    position: relative;
-    color:white;
-    padding-top: 25px; 
-  }
-    
-  .navigation ul li a {
-      color:white;  
-      text-decoration: none;
-      font-family: "Raleway", sans-serif;
-      font-size:16px;
-  }
-  
-  .backgrd {
-    background-image: url("https://i.postimg.cc/sg0QmnGr/pexels-polina-kovaleva-5827776.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
-    max-width:100%;
-    color:white;
-  }
-  
-  .btn {
-    display: inline-block;
-    min-width: 160px;
-    margin: 24px auto 10px auto;
-    padding: 16px;
-    border-radius: 5px;
-    font-family: "Inconsolata", monospace;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border-width: 0;
-    border-style: solid;
-    background-color: inherit;
-    background-position: 100% 0;
-    background-size: 300%;
-    transition: all 1s; 
-   }
-    
-  .flex-container {
-    display: flex;
-    justify-content: space-between; 
-    text-align: center;
-   }
-   .flex-container a {
-      color:gold;
-      font-family: 'Luxurious Script', cursive; 
-      font-size:75px;
-       
-  }
-   .btn-logo {
-    display:inline-flex;
-   
-  }
-  .btn-one {
-      background:gold;
-      color:white;
-      font-weight:200;
-      font-size:24px;
-  }
-  .navigation {
-      display:inline-flex;
-      
-  }
-  .splash {
-      display:flex;
-      flex-direction:column;
-      justify-content:center;
-      text-align:center;
-      margin:auto;
-  }
-  .page-title {
-    margin: 0;
-    font-size: 60px;
-    word-spacing: 5px;
-    font-weight: 500;
-    line-height: 1.2; }
-  
-  .page-subtitle {
-    margin: 24px 0;
-    font-weight: 400;
-    font-size: 36px; 
-    text-align: center;
-  }
-  .section-title {
-    font-size: 36px;
-    margin:0; 
-    text-align: center;
-    padding-top: 60px;
-  }
-  .section-subtitle {
-    font-size: 16px;
-    text-align: center;
-    color: darkgray;
-    font-style: italic;
-  }
-  .box {
-    flex: 0 0 33.333%;
-    position:relative;
+  display: inline-block;
+  margin: 0 20px 0 0;
+  position: relative;
+  color: white;
+  padding-top: 25px;
 }
+
+.navigation ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.backgrd {
+  background-image: url("https://i.postimg.cc/sg0QmnGr/pexels-polina-kovaleva-5827776.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  max-width: 100%;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 10px auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 0;
+  border-style: solid;
+  background-color: inherit;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap:wrap;
+}
+
+.btn-logo a {
+  color: gold;
+  font-family: "Luxurious Script", cursive;
+  font-size: 75px;
+}
+.header a {
+    color:white;
+    }
+.btn-logo {
+  display: inline-flex;
+}
+
+.btn-one {
+  background: gold;
+  color: white;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.navigation {
+  display: inline-flex;
+}
+
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 60px;
+  word-spacing: 5px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.page-subtitle {
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: darkgray;
+  font-style: italic;
+}
+.box {
+    padding-top:20px;
+}
+.icons i {
+   font-size:30px;
+    border-style:solid;
+    width: 60px;
+    height: 60px;
+    color: gold;
+    border-radius:50%;
+    padding-top:10px;
+    margin:auto;
+    border-width:5px;
+}
+.box-text {
+    background-color:white;    
+}
+.boxtext h2 {
+    margin-top:0;
+    }
+.box-text p {
+    color: darkgray;
+    text-align:center; 
+    font-style:italic;
+    font-size:20px;
+}
+.image-box {
+   min-height: 300px;
+   padding-top:10px;
+    
+
+}
+.foto {
+    
+    object-fit:cover; 
+}
+.foto img {
+    width:100%;
+    height:100%;
+    
+}
+.portfolio {
+background-color:#F5FFFA;    
+}
+
+footer {
+    margin: 0 auto;    
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    
   
+}
+
+.icons-f li {
+    display: inline-block;
+    position: center;
+    font-size: 0px; 
+}
+.icons-f li i {
+    font-size:15px;
+   background:black;
+    width: 35px;
+    height: 35px;
+    color: white;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.text-f  {
+    
+  justify-content:left;
+  padding-top: 10px;
+
+}
+.icons-f {
+    display:flex;
+    justify-content:left;
+    text-align:center;
+}
