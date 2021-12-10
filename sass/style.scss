@@ -1,3 +1,29 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+
+.backgrd {
+  background-image: url("https://i.postimg.cc/sg0QmnGr/pexels-polina-kovaleva-5827776.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 550px;
+  max-width: 100%;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.navigation {
+  display:flex;
+}
+
 .navigation li {
   display: inline-block;
   margin: 0 20px 0 0;
@@ -11,16 +37,6 @@
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-}
-
-.backgrd {
-  background-image: url("https://i.postimg.cc/sg0QmnGr/pexels-polina-kovaleva-5827776.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 500px;
-  max-width: 100%;
-  color: white;
 }
 
 .btn {
@@ -42,23 +58,16 @@
   transition: all 1s;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  flex-wrap:wrap;
-}
+
 
 .btn-logo a {
   color: gold;
   font-family: "Luxurious Script", cursive;
   font-size: 75px;
 }
-.header a {
-    color:white;
-    }
+
 .btn-logo {
-  display: inline-flex;
+  display:flex;
 }
 
 .btn-one {
@@ -68,9 +77,9 @@
   font-size: 24px;
 }
 
-.navigation {
-  display: inline-flex;
-}
+.header a {
+  color:white;
+  }
 
 .splash {
   display: flex;
@@ -84,15 +93,17 @@
   margin: 0;
   font-size: 60px;
   word-spacing: 5px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 1.2;
 }
+
 
 .page-subtitle {
   margin: 24px 0;
   font-weight: 400;
   font-size: 36px;
   text-align: center;
+  font-style: italic;
 }
 
 .section-title {
@@ -108,9 +119,11 @@
   color: darkgray;
   font-style: italic;
 }
+
 .box {
     padding-top:20px;
 }
+
 .icons i {
    font-size:30px;
     border-style:solid;
@@ -122,12 +135,16 @@
     margin:auto;
     border-width:5px;
 }
-.box-text {
+
+
+.box-text-image {
     background-color:white;    
+    height:80px;
+    text-align: center;
+   
 }
-.boxtext h2 {
-    margin-top:0;
-    }
+
+
 .box-text p {
     color: darkgray;
     text-align:center; 
@@ -137,29 +154,43 @@
 .image-box {
    min-height: 300px;
    padding-top:10px;
-    
+  margin-bottom: 0;
 
 }
+.image-box h2 {
+
+  margin-top: -5px;
+  margin-bottom: 5px;
+  padding:  10px;
+}
+
+.image-box p {
+    margin:0px;
+}
+
 .foto {
     
     object-fit:cover; 
+    margin-bottom: 0;
 }
+
 .foto img {
     width:100%;
-    height:100%;
-    
+    height:100%;   
 }
+
 .portfolio {
-background-color:#F5FFFA;    
+background-color:#eeecec;    
+padding: 20px;
 }
 
 footer {
+  
     margin: 0 auto;    
     text-align: center;
     display:flex;
-    flex-direction:row;
-    
-  
+    flex-direction:row; 
+    padding-top: 25px;
 }
 
 .icons-f li {
@@ -178,13 +209,39 @@ footer {
 }
 
 .text-f  {
-    
+  display:flex;
   justify-content:left;
-  padding-top: 10px;
+  padding-top: 20px;
 
 }
 .icons-f {
     display:flex;
     justify-content:left;
-    text-align:center;
+    
+}
+
+@media (max-width: 600px) {  
+  .page-title {
+  font-size: 30px;
+  }
+  .page-subtitle {
+    font-size: 20px;
+  }
+  .navigation ul li {
+    display:inline-block;
+  }
+  .btn-logo a {
+    display:none; 
+  }
+  .backgrd {
+      height:400px;
+  }
+  .image-box h2 {
+        margin-top: -5px;
+        margin-bottom:0;
+        padding:  10px;
+        font-size:15px;
+  }
+ 
+  
 }
